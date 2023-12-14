@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 2fr;
+            gap: 3px;
+            margin-top: 5%;
+            margin-left: 15%;
+
+        }
+
+        img {
+         height: 250px;
+            width: 300px; 
+            box-shadow: 10px 10px 8px 8px darkgrey;
+        }
+
+        .effect-class :hover {
+            /* opacity: 0.5; */
+             transform: scale(1.5); 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-div">
+            <div class="img1 effect-class"> <img src="imgs/download (5).jpg" alt=""></div>
+            <div class="img2 effect-class"> <img src="imgs/download (6).jpg" alt=""></div>
+        </div>
+        <div class="inner-div">
+            <div class="img3 effect-class"> <img src="imgs/images (16).jpg" alt=""></div>
+            <div class="img4 effect-class "> <img src="imgs/images (17).jpg" alt=""></div>
+        </div>
+        <div class="inner-div">
+            <div class="img5 effect-class "> <img src="imgs/images (18).jpg" alt=""></div>
+            <div class="img6 effect-class"><img src="imgs/images (19).jpg" alt=""></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
